@@ -5,7 +5,7 @@ export default function DoctorList({props}) {
     
     return ( 
         props.doctorList.map((doctor,i)=>{
-           return <Doctor Doctor={doctor} key={i}/>
+           return <Doctor Doctor={Doctor} key={i}/>
         })
      );
 }

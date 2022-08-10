@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/navbar';
-import DoctorList from './components/DoctorList';
+//import DoctorList from './components/DoctorList';
 
 function App() {
   const doctorList = [
@@ -19,9 +19,7 @@ function App() {
   return (
     <>
     <Navbar/>
-    <main className='container'>
-    <DoctorList doctorList = {doctorList}/>
-    </main>
+    
     </>
   );
 }
